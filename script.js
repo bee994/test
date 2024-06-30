@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const search = document.querySelector('.input-group input'),
+        table_rows = document.querySelectorAll('tbody tr'), 
         table_headings = document.querySelectorAll('thead th');
 
     // 1. Searching for specific data of HTML table
