@@ -1,3 +1,4 @@
+//auto-increment id
 document.addEventListener('DOMContentLoaded', () => {
     const table_rows = document.querySelectorAll('tbody tr');
 
@@ -6,9 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const idCell = row.querySelector('td[data-cell="ID"] .id');
         idCell.textContent = String(index + 1).padStart(2, '0');
     });
-
+//end of auto-increment id
     const search = document.querySelector('.input-group input'),
-        table_rows = document.querySelectorAll('tbody tr'), 
+/*      table_rows = document.querySelectorAll('tbody tr'), */
         table_headings = document.querySelectorAll('thead th');
 
     // 1. Searching for specific data of HTML table
