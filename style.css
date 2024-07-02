@@ -345,7 +345,7 @@ caption{
   }
   
   .status:nth-child(3){
-    margin-left: 12ch;
+    margin-left: 10ch;
   }
   
   .date{
@@ -353,7 +353,7 @@ caption{
   }
   
    .type{
-    margin-left: 0.75ch;
+    margin-left: 0.78ch;
   }   
   
   td{
